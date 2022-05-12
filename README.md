@@ -10,6 +10,7 @@ Nous allons réaliser une application de gestion de notes. L'application est com
 1. Cloner le react-modele-blue `cp -rn ../React-modele-blue/. .`
 2. `yarn` `yarn start`
 
+
 ## MVP (minimum viable product)
 1. Créer 3 composants, `NotesList`: qui affichera la liste de note, `Note`: qui affichera une note, `Form`: qui affichera le textArea dans un form.
 2. Faites l'affichage et le style, sans props, ni state
@@ -70,3 +71,6 @@ Ajouter un bouton d'édition sur le message, lorsque l'utilisateur clique sur ce
 ### Enregistrer les notes dans le localStorage
 Sauvegarder le tableau de message dans le localStorage, faites en sortes que quand la liste des messages est modifié cela modifie aussi dans le localStorage. Puis sur le mount de App, initialiser le state avec les données présente dans le localStorage.
 > TIPS: utiliser `useEffect`
+
+### Page FAQ
+Mettez en place react-router-dom, et créer un footer dans l'application, ce footer possedera un lien pour aller sur une page de FAQ, qui présentera le projet, son utilité et son auteur.
