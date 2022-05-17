@@ -10,10 +10,10 @@ function Footer({ className, ...rest }) {
       className={`footer ${className || ''}`}
     >
       <Link to="/">
-        Le lien pour l'app
+        Accueil
       </Link>
       <Link to="/faq">
-        Le lien pour la FAQ
+        FAQ
       </Link>
     </footer>
   );

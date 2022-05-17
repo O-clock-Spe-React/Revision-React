@@ -1,0 +1,18 @@
+@use '../../styles/vars';
+
+.footer {
+    height: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    a {
+        color: vars.$color-action;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

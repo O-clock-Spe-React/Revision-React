@@ -7,7 +7,10 @@ function Faq({ className, ...rest }) {
     <div
       {...rest}
       className={`faq ${className || ''}`}
-    />
+    >
+      <h1>FAQ</h1>
+
+    </div>
   );
 }
 

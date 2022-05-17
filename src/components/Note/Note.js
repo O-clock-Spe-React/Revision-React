@@ -58,20 +58,22 @@ function Note({
           {text}
         </p>
       )}
-      <button
-        className="note--button note--button__delete"
-        type="button"
-        onClick={() => onDelete()}
-      >
-        <FeatherIcon icon="trash" />
-      </button>
-      <button
-        className="note--button note--button__edit"
-        type="button"
-        onClick={() => setEditMode(true)}
-      >
-        <FeatherIcon icon="edit-2" />
-      </button>
+      <div className="note--button-group">
+        <button
+          className="note--button note--button__delete"
+          type="button"
+          onClick={() => onDelete()}
+        >
+          <FeatherIcon icon="trash" size={15} />
+        </button>
+        <button
+          className="note--button note--button__edit"
+          type="button"
+          onClick={() => setEditMode(true)}
+        >
+          <FeatherIcon icon="edit-2" size={15} />
+        </button>
+      </div>
     </div>
   );
 }

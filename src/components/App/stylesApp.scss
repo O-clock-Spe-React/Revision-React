@@ -1,9 +1,13 @@
-.app {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
-}
+@use '../../styles/vars';
 
-.app img {
-  max-width: 150px;
+.app {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+  padding: 1em;
+  background-color: vars.$color-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

@@ -1,0 +1,70 @@
+@use '../../styles/vars';
+
+.note {
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 2em;
+
+    &--date {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-size: 0.8em;
+        color: vars.$color-font-alt;
+    }
+
+    &--text {
+        padding-top: 1.5em;
+        min-height: 3em;
+        display: block;
+    }
+
+    &--form {
+        padding-top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+
+        textarea {
+            width: 100%;
+            min-height: 3em;
+            border: none;
+            margin-bottom: 1em;
+            background-color: #eee;
+            border-radius: 5px;
+            padding: 0.5em;
+        }
+
+        &-button {
+            border: none;
+            cursor: pointer;
+            background-color: #234b78;
+            border-radius: 4px;
+            color: #fff;
+            padding: 0.5em;
+            font-size: 0.9em;
+            margin-right: 1em;
+        }
+    }
+
+    &--button-group {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+    }
+
+    &--button {
+        border: none;
+        background: transparent;
+        font-size: 0.6em;
+        color: vars.$color-font-alt;
+        cursor: pointer;
+
+        &:hover {
+            color: vars.$color-font-alt-hover;
+        }
+    }
+}
