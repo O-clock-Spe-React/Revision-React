@@ -5,6 +5,8 @@ Nous allons réaliser une application de gestion de notes. L'application est com
 1. Une partie supérieur avec toutes les notes enregistré, c'est simplement des blocs contenant chaque note ajouté par l'utilisateur, affiché les une après les autres avec une scrollbar.
 2. Un textarea permettant d'ajouter une note à la liste du dessus
 
+![final](./final.png)
+
 
 ## Mise en place
 1. Cloner le react-modele-blue `cp -rn ../React-modele-blue/. .`
