@@ -1,5 +1,5 @@
 # Revision React
-# Jounal bloc note
+# Journal bloc note
 
 Nous allons réaliser une application de gestion de notes. L'application est composée de 2 parties:
 1. Une partie supérieure avec toutes les notes enregistrées, ce sont simplement des blocs contenant chacune des notes ajoutées par l'utilisateur, affichées les unes après les autres avec une scrollbar.
